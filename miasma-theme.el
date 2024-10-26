@@ -65,8 +65,8 @@
    `(doom-modeline-bar ((,class (:background ,miasma-cedar))))
    `(doom-modeline-bar-inactive ((,class (:background ,miasma-reseda))))
 
-   ;;;;; hl-line
-   `(hl-line-face ((,class (:background ,miasma-charcoal))))
+   ;;;;; show-paren
+   `(show-paren-match ((t (:background ,miasma-reseda-1 :weight bold))))
    ))
 
 (provide-theme 'miasma)
