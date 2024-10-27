@@ -100,6 +100,7 @@
    `(diredfl-write-priv ((,class (:foreground ,miasma-cedar))))
 
    ;;;;; doom-modeline
+   `(doom-modeline-bar ((,class (:background ,miasma-eucalyptus))))
    `(doom-modeline-buffer-path ((,class (:foreground ,miasma-eucalyptus))))
    `(doom-modeline-buffer-modified ((,class (:foreground ,miasma-lemon))))
    `(doom-modeline-project-dir ((,class (:foreground ,miasma-eucalyptus))))
