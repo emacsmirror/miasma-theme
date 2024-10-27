@@ -1,1 +1,2 @@
-* WIP
+* Miasma Theme
+A dark color scheme for Emacs. It is mostly a direct port of [[https://github.com/xero/miasma.nvim][Miasma]] theme.
