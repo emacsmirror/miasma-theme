@@ -61,7 +61,7 @@
    `(font-lock-constant-face ((,class (:foreground ,miasma-cedar))))
    `(font-lock-function-name-face ((,class (:foreground ,miasma-reseda))))
    `(font-lock-keyword-face ((,class (:foreground ,miasma-eucalyptus))))
-   `(font-lock-string-face ((,class (:foreground ,miasma-walnut))))
+   `(font-lock-string-face ((,class (:foreground ,miasma-walnut :weight bold))))
    `(font-lock-type-face ((,class (:foreground ,miasma-brass))))
    `(font-lock-variable-name-face ((,class (:foreground ,miasma-lemon))))
    `(font-lock-warning-face ((,class (:foreground ,miasma-tangerine))))
