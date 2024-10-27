@@ -40,7 +40,7 @@
    `(link-visited ((,class (:foreground ,miasma-walnut :underline t :weight normal))))
    `(cursor ((,class (:background ,miasma-reseda))))
    `(region ((,class (:background ,miasma-forest))))
-   `(highlight ((,class (:background ,miasma-charcoal))))
+   `(highlight ((,class (:background ,miasma-olive))))
    `(fringe ((,class (:background ,miasma-light-charcoal))))
    `(success ((,class (:foreground ,miasma-eucalyptus))))
    `(warning ((,class (:foreground ,miasma-tangerine))))
@@ -84,6 +84,12 @@
    `(git-gutter:added ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(git-gutter:deleted ((,class (:foreground ,miasma-cedar :weight bold))))
    `(git-gutter:modified ((,class (:foreground ,miasma-ecru :weight bold))))
+
+   ;; ;;;;; hl-line
+   `(hl-line ((,class (:background ,miasma-charcoal))))
+
+   ;;;;; solaire
+   `(solaire-default-face ((,class (:background ,miasma-charcoal))))
 
    ;;;;; show-paren
    `(show-paren-match ((,class (:background ,miasma-reseda-1 :weight bold))))
