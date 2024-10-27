@@ -77,7 +77,13 @@
    `(doom-modeline-bar-inactive ((,class (:background ,miasma-light-gray))))
 
    ;;;;; show-paren
-   `(show-paren-match ((t (:background ,miasma-reseda-1 :weight bold))))
+   `(show-paren-match ((,class (:background ,miasma-reseda-1 :weight bold))))
+
+   ;;;;; persp-mode
+   `(persp-selected-face ((,class (:foreground ,miasma-lemon))))
+
+   ;;;;; vertico
+   `(vertico-posframe-border ((,class (:background ,miasma-dark-gray))))
    ))
 
 (provide-theme 'miasma)
