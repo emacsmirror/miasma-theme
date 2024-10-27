@@ -101,8 +101,8 @@
 
    ;;;;; doom-modeline
    `(doom-modeline-buffer-path ((,class (:foreground ,miasma-eucalyptus))))
-   `(doom-modeline-project-dir ((,class (:foreground ,miasma-eucalyptus))))
    `(doom-modeline-buffer-modified ((,class (:foreground ,miasma-lemon))))
+   `(doom-modeline-project-dir ((,class (:foreground ,miasma-eucalyptus))))
 
    ;;;;; git-gutter
    `(git-gutter:added ((,class (:foreground ,miasma-eucalyptus :weight bold))))
