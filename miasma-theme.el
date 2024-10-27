@@ -48,6 +48,12 @@
 
    `(mode-line ((,class (:foreground ,miasma-light-gray :background ,miasma-walnut))))
    `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
+   ;;;;; mode line
+   `(mode-line ((,class (:background ,miasma-forest))))
+   `(mode-line-inactive ((,class (:foreground ,miasma-dark-gray :background ,miasma-graphite))))
+
+   ;;;;; minibuffer
+   `(minibuffer-prompt ((,class (:foreground ,miasma-ecru))))
 
    ;;;;; font lock
    `(font-lock-builtin-face ((,class (:foreground ,miasma-light-gray))))
@@ -67,8 +73,8 @@
    ;;;; Third party packages
 
    ;;;;; doom-modeline
-   `(doom-modeline-bar ((,class (:background ,miasma-cedar))))
-   `(doom-modeline-bar-inactive ((,class (:background ,miasma-reseda))))
+   `(doom-modeline-bar ((,class (:background ,miasma-ecru))))
+   `(doom-modeline-bar-inactive ((,class (:background ,miasma-light-gray))))
 
    ;;;;; show-paren
    `(show-paren-match ((t (:background ,miasma-reseda-1 :weight bold))))
