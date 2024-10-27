@@ -1,2 +1,4 @@
 * Miasma Theme
+#+html: <a href="http://www.gnu.org/licenses/gpl-3.0.txt"><img alt="GPLv3" src="https://img.shields.io/badge/License-GPLv3-blue.svg"/></a>
+
 A dark color scheme for Emacs. It is mostly a direct port of [[https://github.com/xero/miasma.nvim][Miasma]] theme.
