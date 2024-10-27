@@ -51,6 +51,10 @@
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
    `(completions-annotations ((,class (:foreground ,miasma-reseda))))
 
+   ;;;;; dired
+   `(dired-directory ((,class (:foreground ,miasma-eucalyptus))))
+   `(dired-symlink ((,class (:foreground ,miasma-lemon))))
+
    ;;;;; mode line
    `(mode-line ((,class (:background ,miasma-forest))))
    `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
@@ -74,6 +78,26 @@
    `(line-number-current-line ((,class (:inherit default))))
 
    ;;;; Third party packages
+
+   ;;;;; diredfl
+   `(diredfl-compressed-file-name ((,class :foreground ,miasma-lemon)))
+   `(diredfl-compressed-file-suffix ((,class :foreground ,miasma-cedar)))
+   `(diredfl-date-time ((,class (:foreground ,miasma-brass))))
+   `(diredfl-deletion ((,class :foreground ,miasma-cedar)))
+   `(diredfl-deletion-file-name ((,class :foreground ,miasma-cedar)))
+   `(diredfl-dir-heading ((,class (:foreground ,miasma-light-gray))))
+   `(diredfl-dir-name ((,class (:inherit dired-directory))))
+   `(diredfl-dir-priv ((,class (:foreground ,miasma-walnut))))
+   `(diredfl-exec-priv ((,class (:foreground ,miasma-tangerine))))
+   `(diredfl-file-name ((,class (:foreground ,miasma-light-gray))))
+   `(diredfl-file-suffix ((,class (:foreground ,miasma-copper))))
+   `(diredfl-flag-mark ((,class (:foreground ,miasma-tangerine))))
+   `(diredfl-flag-mark-line ((,class (:foreground ,miasma-tangerine))))
+   `(diredfl-no-priv ((,class (:foreground ,miasma-olive))))
+   `(diredfl-number ((,class (:foreground ,miasma-reseda))))
+   `(diredfl-read-priv ((,class (:foreground ,miasma-eucalyptus))))
+   `(diredfl-symlink ((,class (:inherit dired-symlink))))
+   `(diredfl-write-priv ((,class (:foreground ,miasma-cedar))))
 
    ;;;;; doom-modeline
    `(doom-modeline-buffer-path ((,class (:foreground ,miasma-eucalyptus))))
