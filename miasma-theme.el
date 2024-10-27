@@ -113,7 +113,7 @@
    `(persp-selected-face ((,class (:foreground ,miasma-lemon))))
 
    ;;;;; vertico
-   `(vertico-posframe-border ((,class (:background ,miasma-dark-gray))))
+   `(vertico-posframe-border ((,class (:background ,miasma-walnut))))
    `(vertico-posframe-border-2 ((,class (:background ,miasma-tangerine))))
    `(vertico-posframe-border-3 ((,class (:background ,miasma-cedar))))
    `(vertico-posframe-border-4 ((,class (:background ,miasma-ecru))))
