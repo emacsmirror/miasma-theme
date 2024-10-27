@@ -36,10 +36,15 @@
    ;;;; Built-in packages
    ;;;;; Basic
    `(default ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
+   `(link ((,class (:foreground ,miasma-tangerine :underline t :weight bold))))
+   `(link-visited ((,class (:foreground ,miasma-walnut :underline t :weight normal))))
    `(cursor ((,class (:background ,miasma-reseda))))
-   `(region ((,class (:background ,miasma-eucalyptus))))
+   `(region ((,class (:background ,miasma-forest))))
    `(highlight ((,class (:background ,miasma-charcoal))))
    `(fringe ((,class (:background ,miasma-light-charcoal))))
+   `(success ((,class (:foreground ,miasma-eucalyptus))))
+   `(warning ((,class (:foreground ,miasma-tangerine))))
+   `(error ((,class (:foreground ,miasma-cedar))))
 
    `(mode-line ((,class (:foreground ,miasma-light-gray :background ,miasma-walnut))))
    `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
