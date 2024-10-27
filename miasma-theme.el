@@ -90,7 +90,7 @@
    `(diredfl-dir-priv ((,class (:foreground ,miasma-walnut))))
    `(diredfl-exec-priv ((,class (:foreground ,miasma-tangerine))))
    `(diredfl-file-name ((,class (:foreground ,miasma-light-gray))))
-   `(diredfl-file-suffix ((,class (:foreground ,miasma-copper))))
+   `(diredfl-file-suffix ((,class (:foreground ,miasma-reseda))))
    `(diredfl-flag-mark ((,class (:foreground ,miasma-tangerine))))
    `(diredfl-flag-mark-line ((,class (:foreground ,miasma-tangerine))))
    `(diredfl-no-priv ((,class (:foreground ,miasma-olive))))
