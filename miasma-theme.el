@@ -46,8 +46,10 @@
    `(warning ((,class (:foreground ,miasma-tangerine))))
    `(error ((,class (:foreground ,miasma-cedar))))
 
-   `(mode-line ((,class (:foreground ,miasma-light-gray :background ,miasma-walnut))))
-   `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
+   ;;;;; completions
+   `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
+   `(completions-annotations ((,class (:foreground ,miasma-reseda))))
+
    ;;;;; mode line
    `(mode-line ((,class (:background ,miasma-forest))))
    `(mode-line-inactive ((,class (:foreground ,miasma-dark-gray :background ,miasma-graphite))))
