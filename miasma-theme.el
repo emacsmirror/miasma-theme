@@ -36,7 +36,7 @@
    ;;;; Built-in packages
    ;;;;; Basic
    `(default ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
-   `(link ((,class (:foreground ,miasma-tangerine :underline t :weight bold))))
+   `(link ((,class (:foreground ,miasma-brass :underline t :weight bold))))
    `(link-visited ((,class (:foreground ,miasma-walnut :underline t :weight normal))))
    `(cursor ((,class (:background ,miasma-reseda))))
    `(region ((,class (:background ,miasma-moss))))
