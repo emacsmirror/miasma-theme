@@ -76,6 +76,11 @@
    `(doom-modeline-bar ((,class (:background ,miasma-ecru))))
    `(doom-modeline-bar-inactive ((,class (:background ,miasma-light-gray))))
 
+   ;;;;; git-gutter
+   `(git-gutter:added ((,class (:foreground ,miasma-eucalyptus :weight bold))))
+   `(git-gutter:deleted ((,class (:foreground ,miasma-cedar :weight bold))))
+   `(git-gutter:modified ((,class (:foreground ,miasma-ecru :weight bold))))
+
    ;;;;; show-paren
    `(show-paren-match ((,class (:background ,miasma-reseda-1 :weight bold))))
 
