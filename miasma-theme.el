@@ -45,6 +45,7 @@
    `(success ((,class (:foreground ,miasma-eucalyptus))))
    `(warning ((,class (:foreground ,miasma-tangerine))))
    `(error ((,class (:foreground ,miasma-cedar))))
+   `(trailing-whitespace ((,class (:background ,miasma-cedar))))
 
    ;;;;; completions
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
