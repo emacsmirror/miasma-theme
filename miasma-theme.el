@@ -52,7 +52,7 @@
 
    ;;;;; mode line
    `(mode-line ((,class (:background ,miasma-forest))))
-   `(mode-line-inactive ((,class (:foreground ,miasma-dark-gray :background ,miasma-graphite))))
+   `(mode-line-inactive ((,class (:foreground ,miasma-dark-gray))))
 
    ;;;;; minibuffer
    `(minibuffer-prompt ((,class (:foreground ,miasma-ecru))))
@@ -77,6 +77,8 @@
    ;;;;; doom-modeline
    `(doom-modeline-bar ((,class (:background ,miasma-ecru))))
    `(doom-modeline-bar-inactive ((,class (:background ,miasma-light-gray))))
+   `(doom-modeline-buffer-path ((,class (:foreground ,miasma-eucalyptus))))
+   `(doom-modeline-project-dir ((,class (:foreground ,miasma-eucalyptus))))
 
    ;;;;; git-gutter
    `(git-gutter:added ((,class (:foreground ,miasma-eucalyptus :weight bold))))
