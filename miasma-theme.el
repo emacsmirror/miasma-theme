@@ -88,6 +88,16 @@
 
    ;;;; Third party packages
 
+   ;;;;; company
+   `(company-tooltip ((,class (:foreground ,miasma-light-gray :background ,miasma-obsidian))))
+   `(company-tooltip-common ((,class (:foreground ,miasma-eucalyptus))))
+   `(company-tooltip-annotation ((,class (:foreground ,miasma-copper))))
+   `(company-tooltip-selection ((,class (:background ,miasma-olive))))
+   `(company-tooltip ((,class (:background ,miasma-olive))))
+   `(company-echo-common ((,class (:inherit company-tooltip-common))))
+   `(company-tooltip-scrollbar-thumb ((,class (:background ,miasma-moss))))
+   `(company-tooltip-quick-access ((,class (:foreground ,miasma-lemon))))
+
    ;;;;; copilot-mode
    `(copilot-overlay-face ((,class (:foreground ,miasma-graphite))))
 
