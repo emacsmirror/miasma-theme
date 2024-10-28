@@ -56,6 +56,10 @@
    `(dired-directory ((,class (:foreground ,miasma-eucalyptus))))
    `(dired-symlink ((,class (:foreground ,miasma-lemon))))
 
+   ;;;;; flyspell
+   `(flyspell-duplicate ((,class :underline (:style wave :color ,miasma-tangerine))))
+   `(flyspell-incorrect ((,class :underline (:style wave :color ,miasma-terracota))))
+
    ;;;;; mode line
    `(mode-line ((,class (:background ,miasma-forest))))
    `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
