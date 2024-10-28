@@ -149,20 +149,20 @@
    `(rainbow-delimiters-depth-2-face ((,class (:foreground ,miasma-copper :weight bold))))
    `(rainbow-delimiters-depth-3-face ((,class (:foreground ,miasma-lemon :weight bold))))
    `(rainbow-delimiters-depth-4-face ((,class (:foreground ,miasma-eucalyptus :weight bold))))
-   `(rainbow-delimiters-depth-5-face ((,class (:foreground ,miasma-olive :weight bold))))
+   `(rainbow-delimiters-depth-5-face ((,class (:foreground ,miasma-cedar :weight bold))))
    `(rainbow-delimiters-depth-6-face ((,class (:foreground ,miasma-walnut :weight bold))))
    `(rainbow-delimiters-depth-7-face ((,class (:foreground ,miasma-reseda :weight bold))))
-   `(rainbow-delimiters-depth-8-face ((,class (:foreground ,miasma-cedar :weight bold))))
-   `(rainbow-delimiters-depth-9-face ((,class (:foreground ,miasma-lemon :weight bold))))
+   `(rainbow-delimiters-depth-8-face ((,class (:foreground ,miasma-tangerine :weight bold))))
+   `(rainbow-delimiters-depth-9-face ((,class (:foreground ,miasma-dark-gray :weight bold))))
    `(rainbow-delimiters-depth-10-face ((,class (:foreground ,miasma-ecru :weight bold))))
-   `(rainbow-delimiters-depth-11-face ((,class (:foreground ,miasma-tangerine :weight bold))))
-   `(rainbow-delimiters-depth-11-face ((,class (:foreground ,miasma-obsidian :weight bold))))
+   `(rainbow-delimiters-depth-11-face ((,class (:foreground ,miasma-olive :weight bold))))
+   `(rainbow-delimiters-depth-12-face ((,class (:foreground ,miasma-obsidian :weight bold))))
 
    ;;;;; solaire
    `(solaire-default-face ((,class (:background ,miasma-charcoal))))
 
    ;;;;; show-paren
-   `(show-paren-match ((,class (:background ,miasma-olive :weight bold))))
+   `(show-paren-match ((,class (:background ,miasma-moss :weight bold))))
 
    ;;;;; persp-mode
    `(persp-selected-face ((,class (:foreground ,miasma-lemon))))
