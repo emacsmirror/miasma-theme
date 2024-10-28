@@ -88,6 +88,9 @@
 
    ;;;; Third party packages
 
+   ;;;;; copilot-mode
+   `(copilot-overlay-face ((,class (:foreground ,miasma-graphite))))
+
    ;;;;; diredfl
    `(diredfl-compressed-file-name ((,class :foreground ,miasma-lemon)))
    `(diredfl-compressed-file-suffix ((,class :foreground ,miasma-cedar)))
