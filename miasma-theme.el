@@ -27,6 +27,7 @@
       (miasma-tangerine "#fd9720")
       (miasma-copper "#bb7744")
       (miasma-cedar "#b36d43")
+      (miasma-terracota "#c06048")
       (miasma-lemon "#fbec9f")
       (miasma-ecru "#d7c483")
       (miasma-brass "#c9a554"))
@@ -44,8 +45,8 @@
    `(fringe ((,class (:background ,miasma-light-charcoal))))
    `(success ((,class (:foreground ,miasma-eucalyptus))))
    `(warning ((,class (:foreground ,miasma-tangerine))))
-   `(error ((,class (:foreground ,miasma-cedar))))
-   `(trailing-whitespace ((,class (:background ,miasma-cedar))))
+   `(error ((,class (:foreground ,miasma-terracota))))
+   `(trailing-whitespace ((,class (:background ,miasma-terracota))))
 
    ;;;;; completions
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
@@ -65,13 +66,17 @@
    ;;;;; font lock
    `(font-lock-builtin-face ((,class (:foreground ,miasma-light-gray))))
    `(font-lock-comment-face ((,class (:foreground ,miasma-dark-gray))))
-   `(font-lock-constant-face ((,class (:foreground ,miasma-cedar))))
+   `(font-lock-constant-face ((,class (:foreground ,miasma-copper))))
    `(font-lock-function-name-face ((,class (:foreground ,miasma-reseda))))
    `(font-lock-keyword-face ((,class (:foreground ,miasma-eucalyptus))))
    `(font-lock-string-face ((,class (:foreground ,miasma-walnut :weight bold))))
    `(font-lock-type-face ((,class (:foreground ,miasma-brass))))
    `(font-lock-variable-name-face ((,class (:foreground ,miasma-lemon))))
+   `(font-lock-variable-use-face ((,class (:foreground ,miasma-lemon))))
    `(font-lock-warning-face ((,class (:foreground ,miasma-tangerine))))
+
+   ;;;;; flycheck
+   `(flycheck-error ((,class (:underline (:style wave :color ,miasma-terracota)))))
 
    ;;;;; line numbers
    `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
@@ -83,8 +88,8 @@
    `(diredfl-compressed-file-name ((,class :foreground ,miasma-lemon)))
    `(diredfl-compressed-file-suffix ((,class :foreground ,miasma-cedar)))
    `(diredfl-date-time ((,class (:foreground ,miasma-brass))))
-   `(diredfl-deletion ((,class :foreground ,miasma-cedar)))
-   `(diredfl-deletion-file-name ((,class :foreground ,miasma-cedar)))
+   `(diredfl-deletion ((,class :foreground ,miasma-terracota)))
+   `(diredfl-deletion-file-name ((,class :foreground ,miasma-terracota)))
    `(diredfl-dir-heading ((,class (:foreground ,miasma-light-gray))))
    `(diredfl-dir-name ((,class (:inherit dired-directory))))
    `(diredfl-dir-priv ((,class (:foreground ,miasma-walnut))))
@@ -107,7 +112,7 @@
 
    ;;;;; git-gutter
    `(git-gutter:added ((,class (:foreground ,miasma-eucalyptus :weight bold))))
-   `(git-gutter:deleted ((,class (:foreground ,miasma-cedar :weight bold))))
+   `(git-gutter:deleted ((,class (:foreground ,miasma-terracota :weight bold))))
    `(git-gutter:modified ((,class (:foreground ,miasma-ecru :weight bold))))
 
    ;; ;;;;; hl-line
