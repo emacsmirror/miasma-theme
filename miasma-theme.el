@@ -115,14 +115,14 @@
    `(git-gutter:deleted ((,class (:foreground ,miasma-terracota :weight bold))))
    `(git-gutter:modified ((,class (:foreground ,miasma-ecru :weight bold))))
 
-   ;; ;;;;; hl-line
+   ;;;;; hl-line
    `(hl-line ((,class (:background ,miasma-charcoal))))
 
-   ;;;;; solaire
-   `(solaire-default-face ((,class (:background ,miasma-charcoal))))
-
-   ;;;;; show-paren
-   `(show-paren-match ((,class (:background ,miasma-olive :weight bold))))
+   ;;;;; orderless
+   `(orderless-match-face-0 ((,class :inherit bold :foreground ,miasma-tangerine)))
+   `(orderless-match-face-1 ((,class :inherit bold :foreground ,miasma-lemon)))
+   `(orderless-match-face-2 ((,class :inherit bold :foreground ,miasma-eucalyptus)))
+   `(orderless-match-face-3 ((,class :inherit bold :foreground ,miasma-cedar)))
 
    ;;;;; rainbow-delimiters
    `(rainbow-delimiters-base-face ((,class (:foreground ,miasma-reseda :weight bold))))
@@ -138,6 +138,12 @@
    `(rainbow-delimiters-depth-10-face ((,class (:foreground ,miasma-ecru :weight bold))))
    `(rainbow-delimiters-depth-11-face ((,class (:foreground ,miasma-tangerine :weight bold))))
    `(rainbow-delimiters-depth-11-face ((,class (:foreground ,miasma-obsidian :weight bold))))
+
+   ;;;;; solaire
+   `(solaire-default-face ((,class (:background ,miasma-charcoal))))
+
+   ;;;;; show-paren
+   `(show-paren-match ((,class (:background ,miasma-olive :weight bold))))
 
    ;;;;; persp-mode
    `(persp-selected-face ((,class (:foreground ,miasma-lemon))))
