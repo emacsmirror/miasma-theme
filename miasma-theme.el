@@ -80,7 +80,9 @@
    `(font-lock-warning-face ((,class (:foreground ,miasma-tangerine))))
 
    ;;;;; flycheck
+   `(flycheck-info ((,class (:underline (:style wave :color ,miasma-eucalyptus)))))
    `(flycheck-error ((,class (:underline (:style wave :color ,miasma-terracota)))))
+   `(flycheck-warning ((,class (:underline (:style wave :color ,miasma-tangerine)))))
 
    ;;;;; line numbers
    `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
