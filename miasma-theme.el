@@ -1,7 +1,8 @@
 ;;; miasma-theme.el --- A low contrast color theme for Emacs
 
 ;;; Commentary:
-;; This is a port of the NeoVim Miasma theme for Emacs.
+;; A low contrast color theme for Emacs inspired by the woods.
+;; This is mostly a port of the NeoVim Miasma theme.
 
 ;;; Code:
 (deftheme miasma
