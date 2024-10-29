@@ -92,6 +92,13 @@
 
    ;;;; Third party packages
 
+   ;;;;; avy
+   `(avy-goto-char-timer-face ((,class :background ,miasma-olive :bold t)))
+   `(avy-lead-face ((,class :foreground ,miasma-light-gray :background ,miasma-terracota :bold t)))
+   `(avy-lead-face-0 ((,class :foreground ,miasma-light-gray :background ,miasma-river :bold t)))
+   `(avy-lead-face-1 ((,class :foreground ,miasma-light-gray :background ,miasma-dark-gray :bold t)))
+   `(avy-lead-face-2 ((,class :background ,miasma-lemon :bold t)))
+
    ;;;;; company
    `(company-tooltip ((,class (:foreground ,miasma-light-gray :background ,miasma-obsidian))))
    `(company-tooltip-common ((,class (:foreground ,miasma-eucalyptus))))
