@@ -30,6 +30,7 @@
       (miasma-copper "#bb7744")
       (miasma-cedar "#b36d43")
       (miasma-terracota "#c86448")
+      (miasma-fire "#661010")
       (miasma-lemon "#fbec9f")
       (miasma-ecru "#d7c483")
       (miasma-brass "#c9a554"))
@@ -48,7 +49,7 @@
    `(success ((,class (:foreground ,miasma-eucalyptus))))
    `(warning ((,class (:foreground ,miasma-tangerine))))
    `(error ((,class (:foreground ,miasma-terracota))))
-   `(trailing-whitespace ((,class (:background ,miasma-terracota))))
+   `(trailing-whitespace ((,class (:background ,miasma-fire))))
 
    ;;;;; completions
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
