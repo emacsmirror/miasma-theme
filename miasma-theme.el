@@ -169,6 +169,7 @@
 
    ;;;;; solaire
    `(solaire-default-face ((,class (:background ,miasma-charcoal))))
+   `(solaire-hl-line-face ((,class (:background ,miasma-obsidian))))
 
    ;;;;; show-paren
    `(show-paren-match ((,class (:background ,miasma-moss :weight bold))))
