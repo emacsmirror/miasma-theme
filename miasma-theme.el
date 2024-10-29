@@ -92,6 +92,10 @@
 
    ;;;; Third party packages
 
+   ;;;;; ace-window
+   `(aw-leading-char-face ((,class :foreground ,miasma-terracota :height 1.5 :bold t)))
+   `(aw-minibuffer-leading-char-face ((,class :foreground ,miasma-terracota)))
+
    ;;;;; avy
    `(avy-goto-char-timer-face ((,class :background ,miasma-olive :bold t)))
    `(avy-lead-face ((,class :foreground ,miasma-light-gray :background ,miasma-terracota :bold t)))
