@@ -105,11 +105,10 @@
    `(avy-lead-face-2 ((,class :background ,miasma-lemon :bold t)))
 
    ;;;;; company
-   `(company-tooltip ((,class (:foreground ,miasma-light-gray :background ,miasma-obsidian))))
+   `(company-tooltip ((,class (:foreground ,miasma-light-gray :background ,miasma-obsidian :extend t))))
    `(company-tooltip-common ((,class (:foreground ,miasma-eucalyptus))))
    `(company-tooltip-annotation ((,class (:foreground ,miasma-copper))))
    `(company-tooltip-selection ((,class (:background ,miasma-olive))))
-   `(company-tooltip ((,class (:background ,miasma-olive))))
    `(company-echo-common ((,class (:inherit company-tooltip-common))))
    `(company-tooltip-scrollbar-thumb ((,class (:background ,miasma-moss))))
    `(company-tooltip-quick-access ((,class (:foreground ,miasma-lemon))))
