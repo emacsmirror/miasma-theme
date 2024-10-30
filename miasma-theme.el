@@ -96,15 +96,15 @@
    ;;;; Third party packages
 
    ;;;;; ace-window
-   `(aw-leading-char-face ((,class :foreground ,miasma-terracota :height 1.5 :bold t)))
+   `(aw-leading-char-face ((,class :foreground ,miasma-terracota :height 1.5 :weight bold)))
    `(aw-minibuffer-leading-char-face ((,class :foreground ,miasma-terracota)))
 
    ;;;;; avy
-   `(avy-goto-char-timer-face ((,class :background ,miasma-olive :bold t)))
-   `(avy-lead-face ((,class :foreground ,miasma-light-gray :background ,miasma-terracota :bold t)))
-   `(avy-lead-face-0 ((,class :foreground ,miasma-light-gray :background ,miasma-river :bold t)))
-   `(avy-lead-face-1 ((,class :foreground ,miasma-light-gray :background ,miasma-dark-gray :bold t)))
-   `(avy-lead-face-2 ((,class :background ,miasma-lemon :bold t)))
+   `(avy-goto-char-timer-face ((,class :background ,miasma-olive :weight bold)))
+   `(avy-lead-face ((,class :foreground ,miasma-light-gray :background ,miasma-terracota :weight bold)))
+   `(avy-lead-face-0 ((,class :foreground ,miasma-light-gray :background ,miasma-river :weight bold)))
+   `(avy-lead-face-1 ((,class :foreground ,miasma-light-gray :background ,miasma-dark-gray :weight bold)))
+   `(avy-lead-face-2 ((,class :background ,miasma-lemon :weight bold)))
 
    ;;;;; company
    `(company-tooltip ((,class (:foreground ,miasma-light-gray :background ,miasma-obsidian :extend t))))
