@@ -183,6 +183,8 @@
    `(magit-log-author ((,class (:foreground ,miasma-terracota))))
    `(magit-log-date ((,class (:foreground ,miasma-light-gray))))
    `(magit-log-graph ((,class (:foreground ,miasma-light-gray))))
+   `(magit-process-ng ((,class (:foreground ,miasma-fire))))
+   `(magit-process-ok ((,class (:foreground ,miasma-eucalyptus))))
    `(magit-reflog-amend ((,class (:foreground ,miasma-tangerine))))
    `(magit-reflog-checkout ((,class (:foreground ,miasma-river))))
    `(magit-reflog-checkout ((,class (:foreground ,miasma-river))))
