@@ -207,6 +207,9 @@
    `(orderless-match-face-2 ((,class :inherit bold :foreground ,miasma-eucalyptus)))
    `(orderless-match-face-3 ((,class :inherit bold :foreground ,miasma-cedar)))
 
+   ;;;;; persp-mode
+   `(persp-selected-face ((,class (:foreground ,miasma-lemon))))
+
    ;;;;; rainbow-delimiters
    `(rainbow-delimiters-base-face ((,class (:foreground ,miasma-reseda :weight bold))))
    `(rainbow-delimiters-depth-1-face ((,class (:foreground ,miasma-brass :weight bold))))
