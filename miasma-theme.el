@@ -90,6 +90,7 @@
    `(font-lock-variable-name-face ((,class (:foreground ,miasma-lemon))))
    `(font-lock-variable-use-face ((,class (:foreground ,miasma-lemon))))
    `(font-lock-warning-face ((,class (:foreground ,miasma-tangerine))))
+   `(font-lock-preprocessor-face ((,class (:foreground ,miasma-cedar))))
 
    ;;;;; flycheck
    `(flycheck-info ((,class (:underline (:style wave :color ,miasma-eucalyptus)))))
@@ -262,6 +263,12 @@
    `(vertico-posframe-border-2 ((,class (:background ,miasma-tangerine))))
    `(vertico-posframe-border-3 ((,class (:background ,miasma-cedar))))
    `(vertico-posframe-border-4 ((,class (:background ,miasma-ecru))))
+
+   ;;;;; web-mode
+   `(web-mode-html-attr-engine-face ((,class (:foreground ,miasma-reseda))))
+   `(web-mode-html-attr-name-face ((,class (:foreground ,miasma-reseda))))
+   `(web-mode-html-tag-bracket-face ((,class (:foreground ,miasma-eucalyptus))))
+   `(web-mode-html-tag-face ((,class (:foreground ,miasma-eucalyptus))))
    ))
 
 (provide-theme 'miasma)
