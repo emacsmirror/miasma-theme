@@ -53,6 +53,7 @@
    `(error ((,class (:foreground ,miasma-terracota))))
    `(trailing-whitespace ((,class (:background ,miasma-fire))))
    `(shadow ((,class (:foreground ,miasma-dark-gray))))
+   `(secondary-selection ((,class (:background ,miasma-olive))))
 
    ;;;;; completions
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
@@ -214,6 +215,11 @@
    `(magit-signature-revoked ((,class (:background ,miasma-terracota))))
    `(magit-signature-untrusted ((,class (:foreground ,miasma-reseda))))
    `(magit-tag ((,class (:foreground ,miasma-lemon))))
+
+   ;;;;; org-modern
+   `(org-modern-tag ((,class (:foreground ,miasma-light-gray :inherit (secondary-selection org-modern-label)))))
+   `(org-modern-done ((,class (:foreground ,miasma-light-gray :background ,miasma-olive :inherit org-modern-label))))
+   `(org-modern-todo ((,class (:foreground ,miasma-fire :background ,miasma-terracota  :inherit (org-todo org-modern-label)))))
 
    ;;;;; orderless
    `(orderless-match-face-0 ((,class :inherit bold :foreground ,miasma-tangerine)))
