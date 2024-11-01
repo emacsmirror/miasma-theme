@@ -52,6 +52,7 @@
    `(warning ((,class (:foreground ,miasma-tangerine))))
    `(error ((,class (:foreground ,miasma-terracota))))
    `(trailing-whitespace ((,class (:background ,miasma-fire))))
+   `(shadow ((,class (:foreground ,miasma-dark-gray))))
 
    ;;;;; completions
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
@@ -232,8 +233,10 @@
    ;;;;; show-paren
    `(show-paren-match ((,class (:background ,miasma-moss :weight bold))))
 
-   ;;;;; persp-mode
-   `(persp-selected-face ((,class (:foreground ,miasma-lemon))))
+   ;;;;; transient
+   `(transient-inactive-value ((,class :foreground ,miasma-graphite)))
+   `(transient-key-exit ((,class :foreground ,miasma-cedar)))
+   `(transient-key-stay ((,class :foreground ,miasma-ecru)))
 
    ;;;;; vertico
    `(vertico-posframe-border ((,class (:background ,miasma-walnut))))
