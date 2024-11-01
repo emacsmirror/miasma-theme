@@ -73,6 +73,11 @@
    ;;;;; minibuffer
    `(minibuffer-prompt ((,class (:foreground ,miasma-ecru))))
 
+   ;;;;; org
+   `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
+   `(org-todo ((,class (:foreground ,miasma-terracota :weight bold))))
+   `(org-done ((,class (:foreground ,miasma-eucalyptus :weight bold))))
+
    ;;;;; font lock
    `(font-lock-builtin-face ((,class (:foreground ,miasma-light-gray))))
    `(font-lock-comment-face ((,class (:foreground ,miasma-dark-gray))))
