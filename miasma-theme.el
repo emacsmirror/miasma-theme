@@ -197,6 +197,9 @@
    ;;;;; hl-line
    `(hl-line ((,class (:background ,miasma-charcoal))))
 
+   ;;;;; lsp
+   `(lsp-modeline-code-actions-face ((,class (:foreground ,miasma-olive))))
+
    ;;;;; magit
    `(magit-bisect-bad ((,class (:foreground ,miasma-fire))))
    `(magit-bisect-good ((,class (:foreground ,miasma-olive))))
