@@ -310,4 +310,6 @@
 
 (provide-theme 'miasma)
 
+;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
+
 ;;; miasma-theme.el ends here
