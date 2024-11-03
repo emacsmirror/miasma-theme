@@ -103,7 +103,7 @@
    `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
    `(line-number-current-line ((,class (:inherit default))))
 
-   ;;;; Third party packages
+   ;;;; Third-party packages
 
    ;;;;; ace-window
    `(aw-leading-char-face ((,class :foreground ,miasma-terracota :height 1.5 :weight bold)))
@@ -153,6 +153,20 @@
    `(doom-modeline-buffer-path ((,class (:foreground ,miasma-eucalyptus))))
    `(doom-modeline-buffer-modified ((,class (:foreground ,miasma-lemon))))
    `(doom-modeline-project-dir ((,class (:foreground ,miasma-eucalyptus))))
+
+   ;;;;; elfeed
+   `(elfeed-search-date-face ((,class (:foreground ,miasma-eucalyptus))))
+   `(elfeed-search-feed-face ((,class (:foreground ,miasma-brass))))
+   `(elfeed-search-tag-face ((,class (:foreground ,miasma-lemon))))
+   `(elfeed-search-title-face ((,class (:foreground ,miasma-dark-gray))))
+   `(elfeed-search-unread-title-face ((,class (:foreground ,miasma-light-gray))))
+   `(elfeed-log-info-level-face ((,class (:foreground ,miasma-eucalyptus))))
+   `(elfeed-log-warn-level-face ((,class (:foreground ,miasma-tangerine))))
+   `(elfeed-log-error-level-face ((,class (:foreground ,miasma-terracota))))
+   `(elfeed-log-debug-level-face ((,class (:foreground ,miasma-sky))))
+   `(elfeed-search-last-update-face ((,class (:foreground ,miasma-eucalyptus))))
+   `(elfeed-search-unread-count-face ((,class (:foreground ,miasma-light-gray))))
+   `(elfeed-search-filter-face ((,class (:foreground ,miasma-light-gray))))
 
    ;;;;; flycheck
    `(flycheck-info ((,class (:underline (:style wave :color ,miasma-eucalyptus)))))
