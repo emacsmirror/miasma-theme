@@ -67,18 +67,6 @@
    `(flyspell-duplicate ((,class :underline (:style wave :color ,miasma-tangerine))))
    `(flyspell-incorrect ((,class :underline (:style wave :color ,miasma-terracota))))
 
-   ;;;;; mode line
-   `(mode-line ((,class (:background ,miasma-forest))))
-   `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
-
-   ;;;;; minibuffer
-   `(minibuffer-prompt ((,class (:foreground ,miasma-ecru))))
-
-   ;;;;; org
-   `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
-   `(org-todo ((,class (:foreground ,miasma-terracota :weight bold))))
-   `(org-done ((,class (:foreground ,miasma-eucalyptus :weight bold))))
-
    ;;;;; font lock
    `(font-lock-builtin-face ((,class (:foreground ,miasma-light-gray))))
    `(font-lock-comment-face ((,class (:foreground ,miasma-dark-gray))))
@@ -91,6 +79,24 @@
    `(font-lock-variable-use-face ((,class (:foreground ,miasma-lemon))))
    `(font-lock-warning-face ((,class (:foreground ,miasma-tangerine))))
    `(font-lock-preprocessor-face ((,class (:foreground ,miasma-cedar))))
+
+   ;;;;; isearch
+   `(isearch ((,class (:foreground ,miasma-light-charcoal :background ,miasma-tangerine))))
+   `(isearch-fail ((,class (:background ,miasma-fire))))
+   `(isearch-group-1 ((,class (:foreground ,miasma-light-charcoal :background ,miasma-ecru))))
+   `(isearch-group-2 ((,class (:foreground ,miasma-light-charcoal :background ,miasma-brass))))
+
+   ;;;;; mode line
+   `(mode-line ((,class (:background ,miasma-forest))))
+   `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
+
+   ;;;;; minibuffer
+   `(minibuffer-prompt ((,class (:foreground ,miasma-ecru))))
+
+   ;;;;; org
+   `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
+   `(org-todo ((,class (:foreground ,miasma-terracota :weight bold))))
+   `(org-done ((,class (:foreground ,miasma-eucalyptus :weight bold))))
 
    ;;;;; line numbers
    `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
