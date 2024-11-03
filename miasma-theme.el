@@ -1,5 +1,21 @@
 ;;; miasma-theme.el --- A low contrast color theme for Emacs
 
+;; Author: Bozidar Dautovic
+;; URL: http://github.com/daut/miasma-theme.el
+
+;; This program is free software; you can redistribute it and/or modify
+;; it under the terms of the GNU General Public License as published by
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
+
+;; This program is distributed in the hope that it will be useful,
+;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+;; GNU General Public License for more details.
+
+;; You should have received a copy of the GNU General Public License
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 ;;; Commentary:
 ;; A low contrast color theme for Emacs inspired by the woods.
 ;; This is mostly a port of the NeoVim Miasma theme.
@@ -294,5 +310,4 @@
 
 (provide-theme 'miasma)
 
-;; eval: (when (require 'rainbow-mode nil t) (rainbow-mode 1))
 ;;; miasma-theme.el ends here
