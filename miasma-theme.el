@@ -54,6 +54,7 @@
    `(trailing-whitespace ((,class (:background ,miasma-fire))))
    `(shadow ((,class (:foreground ,miasma-dark-gray))))
    `(secondary-selection ((,class (:background ,miasma-olive))))
+   `(match ((,class (:background ,miasma-river))))
 
    ;;;;; completions
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
