@@ -10,6 +10,6 @@ A low contrast color theme for Emacs inspired by the woods. It is mostly a direc
 *** Manual
 Download =miasma-theme.el= file to the =~/.emacs.d/themes/= directory. Add these lines to your =init.el= file.
 #+begin_src emacs-lisp
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
+(add-to-list 'custom-theme-load-path (concat user-emacs-directory "/themes/"))
 (load-theme 'miasma)
 #+end_src
