@@ -2,7 +2,7 @@
 
 #+html: <a href="http://www.gnu.org/licenses/gpl-3.0.txt"><img alt="GPLv3" src="https://img.shields.io/badge/License-GPLv3-blue.svg"/></a>
 
-A color theme for Emacs inspired by the woods. It is mostly a direct port of [[https://github.com/xero/miasma.nvim][Miasma]] theme.
+Emacs color theme inspired by the woods. It is mostly a direct port of [[https://github.com/xero/miasma.nvim][Miasma]] theme.
 
 [[https://raw.githubusercontent.com/daut/miasma-theme.el/main/preview.png]]
 
@@ -11,5 +11,5 @@ A color theme for Emacs inspired by the woods. It is mostly a direct port of [[h
 Download =miasma-theme.el= file to the =~/.emacs.d/themes/= directory. Add these lines to your =init.el= file.
 #+begin_src emacs-lisp
 (add-to-list 'custom-theme-load-path (concat user-emacs-directory "/themes/"))
-(load-theme 'miasma)
+(load-theme 'miasma t)
 #+end_src

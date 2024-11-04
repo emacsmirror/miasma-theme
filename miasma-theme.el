@@ -1,4 +1,4 @@
-;;; miasma-theme.el --- A color theme Emacs inspired by the woods
+;;; miasma-theme.el --- Miasma: color theme inspired by the woods
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
@@ -17,15 +17,14 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-;; A low contrast color theme for Emacs inspired by the woods.
+;; Miasma: color theme inspired by the woods.
 ;; This is mostly a port of the NeoVim Miasma theme.
 
 ;;; Code:
 (deftheme miasma
-  "Miasma color theme inspired by woods."
+  "Miasma: color theme inspired by the woods."
   :background-mode 'dark
   :kind 'color-scheme)
-
 (let ((class '((class color) (min-colors 89)))
       ;; Palette
       (miasma-light-charcoal "#222222")
@@ -314,6 +313,8 @@
 
 (provide-theme 'miasma)
 
+;; Local Variables:
+;; no-byte-compile: t
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
 
 ;;; miasma-theme.el ends here
