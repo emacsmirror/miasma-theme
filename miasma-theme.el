@@ -112,8 +112,8 @@
 
    ;;;;; org
    `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
-   `(org-todo ((,class (:foreground ,miasma-terracota :weight bold))))
-   `(org-done ((,class (:foreground ,miasma-eucalyptus :weight bold))))
+   `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
+   `(org-done ((,class (:foreground ,miasma-olive :weight bold))))
    `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-headline-done ((,class (:foreground ,miasma-dark-gray :weight bold))))
 
@@ -261,8 +261,7 @@
 
    ;;;;; org-modern
    `(org-modern-tag ((,class (:foreground ,miasma-light-gray :inherit (secondary-selection org-modern-label)))))
-   `(org-modern-done ((,class (:foreground ,miasma-light-gray :background ,miasma-forest :inherit org-modern-label))))
-   `(org-modern-todo ((,class (:foreground ,miasma-charcoal :background ,miasma-brass  :inherit (org-todo org-modern-label)))))
+   `(org-modern-done ((,class (:foreground ,miasma-olive :background ,miasma-light-gray :inverse-video t :inherit (org-done org-modern-label)))))
 
    ;;;;; orderless
    `(orderless-match-face-0 ((,class :inherit bold :foreground ,miasma-tangerine)))
