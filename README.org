@@ -2,7 +2,7 @@
 
 #+html: <a href="http://www.gnu.org/licenses/gpl-3.0.txt"><img alt="GPLv3" src="https://img.shields.io/badge/License-GPLv3-blue.svg"/></a>
 
-A low contrast color theme for Emacs inspired by the woods. It is mostly a direct port of [[https://github.com/xero/miasma.nvim][Miasma]] theme.
+A color theme for Emacs inspired by the woods. It is mostly a direct port of [[https://github.com/xero/miasma.nvim][Miasma]] theme.
 
 [[https://raw.githubusercontent.com/daut/miasma-theme.el/main/preview.png]]
 

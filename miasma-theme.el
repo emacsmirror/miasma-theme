@@ -1,4 +1,4 @@
-;;; miasma-theme.el --- A low contrast color theme for Emacs
+;;; miasma-theme.el --- A color theme Emacs inspired by the woods
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
