@@ -21,10 +21,12 @@
 ;; This is mostly a port of the NeoVim Miasma theme.
 
 ;;; Code:
+
 (deftheme miasma
   "Miasma: color theme inspired by the woods."
   :background-mode 'dark
   :kind 'color-scheme)
+
 (let ((class '((class color) (min-colors 89)))
       ;; Palette
       (miasma-light-charcoal "#222222")
@@ -311,10 +313,20 @@
    `(web-mode-html-tag-face ((,class (:foreground ,miasma-eucalyptus))))
    ))
 
+;;; Footer
+
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (boundp 'custom-theme-load-path)
+               (file-name-as-directory
+                (file-name-directory load-file-name))))
+
 (provide-theme 'miasma)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; eval: (when (fboundp 'rainbow-mode) (rainbow-mode +1))
+;; End:
 
 ;;; miasma-theme.el ends here
