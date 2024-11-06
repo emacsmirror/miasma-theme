@@ -7,6 +7,24 @@ Emacs color theme inspired by the woods. It is mostly a direct port of [[https:/
 [[https://raw.githubusercontent.com/daut/miasma-theme.el/main/preview.png]]
 
 ** Installation
+*** =use-package=
+#+begin_src emacs-lisp
+(unless (package-installed-p 'vc-use-package)
+  (package-vc-install "https://github.com/slotThe/vc-use-package"))
+(require 'vc-use-package)
+(use-package miasma-theme
+  :vc (:fetcher github :repo daut/miasma-theme.el)
+  :config
+  (load-theme 'miasma t))
+#+end_src
+**** Emacs 30+
+In Emacs 30 =vc-use-package= is part of the =use-package= so no need to install =vc-use-package=.
+#+begin_src emacs-lisp
+(use-package miasma-theme
+  :vc (:url "https://github.com/daut/miasma-theme.el")
+  :config
+  (load-theme 'miasma t))
+#+end_src
 *** Manual
 Download =miasma-theme.el= file to the =~/.emacs.d/themes/= directory. Add these lines to your =init.el= file.
 #+begin_src emacs-lisp
