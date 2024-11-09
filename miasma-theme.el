@@ -104,12 +104,21 @@
    `(isearch-group-1 ((,class (:foreground ,miasma-light-charcoal :background ,miasma-ecru))))
    `(isearch-group-2 ((,class (:foreground ,miasma-light-charcoal :background ,miasma-brass))))
 
-   ;;;;; mode line
-   `(mode-line ((,class (:background ,miasma-forest))))
-   `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
+   ;;;;; message
+   `(message-header-name ((,class (:foreground ,miasma-reseda))))
+   `(message-header-cc ((,class (:foreground ,miasma-reseda))))
+   `(message-header-subject ((,class (:foreground ,miasma-lemon))))
+   `(message-header-to ((,class (:foreground ,miasma-lemon))))
+   `(message-header-other ((,class (:foreground ,miasma-light-gray))))
+   `(message-cited-text ((,class (:foreground ,miasma-dark-gray))))
+   `(message-separator ((,class (:foreground ,miasma-dark-gray))))
 
    ;;;;; minibuffer
    `(minibuffer-prompt ((,class (:foreground ,miasma-ecru))))
+
+   ;;;;; mode line
+   `(mode-line ((,class (:background ,miasma-forest))))
+   `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
 
    ;;;;; org
    `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
