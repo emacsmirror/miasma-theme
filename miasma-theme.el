@@ -120,7 +120,7 @@
 
    ;;;;; line numbers
    `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
-   `(line-number-current-line ((,class (:inherit default))))
+   `(line-number-current-line ((,class (:background ,miasma-charcoal :inherit default))))
 
    ;;;; Third-party packages
 
