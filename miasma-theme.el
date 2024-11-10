@@ -58,24 +58,24 @@
    'miasma
    ;;;; Built-in packages
    ;;;;; Basic
-   `(default ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
+   `(cursor ((,class (:background ,miasma-reseda))))
+   `(error ((,class (:foreground ,miasma-terracota))))
+   `(fringe ((,class (:background ,miasma-light-charcoal))))
+   `(highlight ((,class (:background ,miasma-olive))))
    `(link ((,class (:foreground ,miasma-brass :underline t :weight bold))))
    `(link-visited ((,class (:foreground ,miasma-walnut :underline t :weight normal))))
-   `(cursor ((,class (:background ,miasma-reseda))))
-   `(region ((,class (:background ,miasma-moss))))
-   `(highlight ((,class (:background ,miasma-olive))))
-   `(fringe ((,class (:background ,miasma-light-charcoal))))
-   `(success ((,class (:foreground ,miasma-eucalyptus))))
-   `(warning ((,class (:foreground ,miasma-tangerine))))
-   `(error ((,class (:foreground ,miasma-terracota))))
-   `(trailing-whitespace ((,class (:background ,miasma-fire))))
-   `(shadow ((,class (:foreground ,miasma-dark-gray))))
-   `(secondary-selection ((,class (:background ,miasma-olive))))
    `(match ((,class (:background ,miasma-river))))
+   `(region ((,class (:background ,miasma-moss))))
+   `(secondary-selection ((,class (:background ,miasma-olive))))
+   `(shadow ((,class (:foreground ,miasma-dark-gray))))
+   `(success ((,class (:foreground ,miasma-eucalyptus))))
+   `(trailing-whitespace ((,class (:background ,miasma-fire))))
+   `(warning ((,class (:foreground ,miasma-tangerine))))
+   `(default ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
 
    ;;;;; completions
-   `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
    `(completions-annotations ((,class (:foreground ,miasma-reseda))))
+   `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
 
    ;;;;; dired
    `(dired-directory ((,class (:foreground ,miasma-eucalyptus))))
@@ -86,32 +86,32 @@
    `(flyspell-incorrect ((,class :underline (:style wave :color ,miasma-terracota))))
 
    ;;;;; font lock
-   `(font-lock-builtin-face ((,class (:foreground ,miasma-light-gray))))
    `(font-lock-comment-face ((,class (:foreground ,miasma-dark-gray))))
    `(font-lock-constant-face ((,class (:foreground ,miasma-copper))))
    `(font-lock-function-name-face ((,class (:foreground ,miasma-reseda))))
    `(font-lock-keyword-face ((,class (:foreground ,miasma-eucalyptus))))
+   `(font-lock-preprocessor-face ((,class (:foreground ,miasma-cedar))))
    `(font-lock-string-face ((,class (:foreground ,miasma-walnut :weight bold))))
    `(font-lock-type-face ((,class (:foreground ,miasma-brass))))
    `(font-lock-variable-name-face ((,class (:foreground ,miasma-lemon))))
    `(font-lock-variable-use-face ((,class (:foreground ,miasma-lemon))))
    `(font-lock-warning-face ((,class (:foreground ,miasma-tangerine))))
-   `(font-lock-preprocessor-face ((,class (:foreground ,miasma-cedar))))
+   `(font-lock-builtin-face ((,class (:foreground ,miasma-light-gray))))
 
    ;;;;; isearch
    `(isearch ((,class (:foreground ,miasma-light-charcoal :background ,miasma-tangerine))))
-   `(isearch-fail ((,class (:background ,miasma-fire))))
    `(isearch-group-1 ((,class (:foreground ,miasma-light-charcoal :background ,miasma-ecru))))
    `(isearch-group-2 ((,class (:foreground ,miasma-light-charcoal :background ,miasma-brass))))
+   `(isearch-fail ((,class (:background ,miasma-fire))))
 
    ;;;;; message
-   `(message-header-name ((,class (:foreground ,miasma-reseda))))
+   `(message-cited-text ((,class (:foreground ,miasma-dark-gray))))
    `(message-header-cc ((,class (:foreground ,miasma-reseda))))
+   `(message-header-other ((,class (:foreground ,miasma-light-gray))))
    `(message-header-subject ((,class (:foreground ,miasma-lemon))))
    `(message-header-to ((,class (:foreground ,miasma-lemon))))
-   `(message-header-other ((,class (:foreground ,miasma-light-gray))))
-   `(message-cited-text ((,class (:foreground ,miasma-dark-gray))))
    `(message-separator ((,class (:foreground ,miasma-dark-gray))))
+   `(message-header-name ((,class (:foreground ,miasma-reseda))))
 
    ;;;;; minibuffer
    `(minibuffer-prompt ((,class (:foreground ,miasma-ecru))))
@@ -121,11 +121,11 @@
    `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
 
    ;;;;; org
-   `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
-   `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
    `(org-done ((,class (:foreground ,miasma-olive :weight bold))))
-   `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-headline-done ((,class (:foreground ,miasma-dark-gray :weight bold))))
+   `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
+   `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
+   `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
 
    ;;;;; line numbers
    `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
@@ -139,19 +139,19 @@
 
    ;;;;; avy
    `(avy-goto-char-timer-face ((,class :background ,miasma-olive :weight bold)))
-   `(avy-lead-face ((,class :foreground ,miasma-light-gray :background ,miasma-terracota :weight bold)))
    `(avy-lead-face-0 ((,class :foreground ,miasma-light-gray :background ,miasma-river :weight bold)))
    `(avy-lead-face-1 ((,class :foreground ,miasma-light-gray :background ,miasma-dark-gray :weight bold)))
    `(avy-lead-face-2 ((,class :background ,miasma-lemon :weight bold)))
+   `(avy-lead-face ((,class :foreground ,miasma-light-gray :background ,miasma-terracota :weight bold)))
 
    ;;;;; company
-   `(company-tooltip ((,class (:foreground ,miasma-light-gray :background ,miasma-obsidian :extend t))))
-   `(company-tooltip-common ((,class (:foreground ,miasma-eucalyptus))))
-   `(company-tooltip-annotation ((,class (:foreground ,miasma-copper))))
-   `(company-tooltip-selection ((,class (:background ,miasma-olive))))
    `(company-echo-common ((,class (:inherit company-tooltip-common))))
-   `(company-tooltip-scrollbar-thumb ((,class (:background ,miasma-moss))))
+   `(company-tooltip-annotation ((,class (:foreground ,miasma-copper))))
+   `(company-tooltip-common ((,class (:foreground ,miasma-eucalyptus))))
    `(company-tooltip-quick-access ((,class (:foreground ,miasma-lemon))))
+   `(company-tooltip-scrollbar-thumb ((,class (:background ,miasma-moss))))
+   `(company-tooltip-selection ((,class (:background ,miasma-olive))))
+   `(company-tooltip ((,class (:foreground ,miasma-light-gray :background ,miasma-obsidian :extend t))))
 
    ;;;;; copilot-mode
    `(copilot-overlay-face ((,class (:foreground ,miasma-graphite))))
@@ -183,18 +183,18 @@
    `(doom-modeline-project-dir ((,class (:foreground ,miasma-eucalyptus))))
 
    ;;;;; elfeed
-   `(elfeed-search-date-face ((,class (:foreground ,miasma-eucalyptus))))
-   `(elfeed-search-feed-face ((,class (:foreground ,miasma-brass))))
-   `(elfeed-search-tag-face ((,class (:foreground ,miasma-lemon))))
-   `(elfeed-search-title-face ((,class (:foreground ,miasma-dark-gray))))
-   `(elfeed-search-unread-title-face ((,class (:foreground ,miasma-light-gray))))
+   `(elfeed-log-debug-level-face ((,class (:foreground ,miasma-sky))))
+   `(elfeed-log-error-level-face ((,class (:foreground ,miasma-terracota))))
    `(elfeed-log-info-level-face ((,class (:foreground ,miasma-eucalyptus))))
    `(elfeed-log-warn-level-face ((,class (:foreground ,miasma-tangerine))))
-   `(elfeed-log-error-level-face ((,class (:foreground ,miasma-terracota))))
-   `(elfeed-log-debug-level-face ((,class (:foreground ,miasma-sky))))
-   `(elfeed-search-last-update-face ((,class (:foreground ,miasma-eucalyptus))))
-   `(elfeed-search-unread-count-face ((,class (:foreground ,miasma-light-gray))))
+   `(elfeed-search-feed-face ((,class (:foreground ,miasma-brass))))
    `(elfeed-search-filter-face ((,class (:foreground ,miasma-light-gray))))
+   `(elfeed-search-last-update-face ((,class (:foreground ,miasma-eucalyptus))))
+   `(elfeed-search-tag-face ((,class (:foreground ,miasma-lemon))))
+   `(elfeed-search-title-face ((,class (:foreground ,miasma-dark-gray))))
+   `(elfeed-search-unread-count-face ((,class (:foreground ,miasma-light-gray))))
+   `(elfeed-search-unread-title-face ((,class (:foreground ,miasma-light-gray))))
+   `(elfeed-search-date-face ((,class (:foreground ,miasma-eucalyptus))))
 
    ;;;;; flycheck
    `(flycheck-info ((,class (:underline (:style wave :color ,miasma-eucalyptus)))))
@@ -270,8 +270,8 @@
    `(magit-tag ((,class (:foreground ,miasma-lemon))))
 
    ;;;;; org-modern
-   `(org-modern-tag ((,class (:foreground ,miasma-light-gray :inherit (secondary-selection org-modern-label)))))
    `(org-modern-done ((,class (:foreground ,miasma-olive :background ,miasma-light-gray :inverse-video t :inherit (org-done org-modern-label)))))
+   `(org-modern-tag ((,class (:foreground ,miasma-light-gray :inherit (secondary-selection org-modern-label)))))
 
    ;;;;; orderless
    `(orderless-match-face-0 ((,class :inherit bold :foreground ,miasma-tangerine)))
