@@ -126,6 +126,7 @@
    `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
    `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
+   `(org-document-title ((,class (:foreground ,miasma-copper))))
 
    ;;;;; line numbers
    `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
