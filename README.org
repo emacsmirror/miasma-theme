@@ -1,4 +1,4 @@
-#+TITLE: Miasma: A Dark Color Scheme for Emacs
+#+TITLE: Miasma: A Dark Color Theme for Emacs
 
 #+html: <a href="http://www.gnu.org/licenses/gpl-3.0.txt"><img alt="GPLv3" src="https://img.shields.io/badge/License-GPLv3-blue.svg"/></a>
 
