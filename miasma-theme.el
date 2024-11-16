@@ -321,8 +321,7 @@
    `(web-mode-html-attr-engine-face ((,class (:foreground ,miasma-reseda))))
    `(web-mode-html-attr-name-face ((,class (:foreground ,miasma-reseda))))
    `(web-mode-html-tag-bracket-face ((,class (:foreground ,miasma-eucalyptus))))
-   `(web-mode-html-tag-face ((,class (:foreground ,miasma-eucalyptus))))
-   ))
+   `(web-mode-html-tag-face ((,class (:foreground ,miasma-eucalyptus))))))
 
 ;;; Footer
 
