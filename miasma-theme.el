@@ -271,6 +271,9 @@
    `(magit-signature-untrusted ((,class (:foreground ,miasma-reseda))))
    `(magit-tag ((,class (:foreground ,miasma-lemon))))
 
+   ;;;;; olivetti
+   `(olivetti-fringe ((,class (:background ,(if (bound-and-true-p solaire-mode) miasma-charcoal nil)))))
+
    ;;;;; org-modern
    `(org-modern-done ((,class (:foreground ,miasma-olive :background ,miasma-light-gray :inverse-video t :inherit (org-done org-modern-label)))))
    `(org-modern-tag ((,class (:foreground ,miasma-light-gray :inherit (secondary-selection org-modern-label)))))
