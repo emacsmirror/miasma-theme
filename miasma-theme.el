@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.0.1
+;; Version: 1.1.0
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -60,6 +60,7 @@
    ;;;; Built-in packages
    ;;;;; Basic
    `(cursor ((,class (:background ,miasma-reseda))))
+   `(default ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
    `(error ((,class (:foreground ,miasma-terracota))))
    `(fringe ((,class (:background ,miasma-light-charcoal))))
    `(highlight ((,class (:background ,miasma-olive))))
@@ -71,8 +72,8 @@
    `(shadow ((,class (:foreground ,miasma-dark-gray))))
    `(success ((,class (:foreground ,miasma-eucalyptus))))
    `(trailing-whitespace ((,class (:background ,miasma-fire))))
+   `(vertical-border ((,class (:foreground ,miasma-olive))))
    `(warning ((,class (:foreground ,miasma-tangerine))))
-   `(default ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
 
    ;;;;; completions
    `(completions-annotations ((,class (:foreground ,miasma-reseda))))
@@ -133,6 +134,11 @@
    ;;;;; line numbers
    `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
    `(line-number-current-line ((,class (:background ,miasma-charcoal :inherit default))))
+
+   ;;;;; window-divider-mode
+   `(window-divider ((,class (:foreground ,miasma-olive))))
+   `(window-divider-first-pixel ((,class (:foreground ,miasma-olive))))
+   `(window-divider-last-pixel ((,class (:foreground ,miasma-olive))))
 
    ;;;; Third-party packages
 
