@@ -1,6 +1,7 @@
 #+TITLE: Miasma: A Dark Color Theme for Emacs
 
-#+html: <a href="https://melpa.org/#/miasma-theme"><img alt="MELPA" src="https://melpa.org/packages/miasma-theme-badge.svg"/></a> <a href="http://www.gnu.org/licenses/gpl-3.0.txt"><img alt="GPLv3" src="https://img.shields.io/badge/License-GPLv3-blue.svg"/></a>
+#+html: <a href="https://melpa.org/#/miasma-theme"><img alt="MELPA" src="https://melpa.org/packages/miasma-theme-badge.svg"/></a>
+#+html: <a href="http://www.gnu.org/licenses/gpl-3.0.txt"><img alt="GPLv3" src="https://img.shields.io/badge/License-GPLv3-blue.svg"/></a>
 
 Emacs color theme inspired by the woods. It is mostly a direct port of [[https://github.com/xero/miasma.nvim][Miasma]] theme.
 
