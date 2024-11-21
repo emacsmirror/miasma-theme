@@ -75,6 +75,10 @@
    `(vertical-border ((,class (:foreground ,miasma-olive))))
    `(warning ((,class (:foreground ,miasma-tangerine))))
 
+   ;;;;; compilation
+   `(compilation-mode-line-exit ((,class (:foreground ,miasma-eucalyptus))))
+   `(compilation-mode-line-fail ((,class (:foreground ,miasma-terracota))))
+
    ;;;;; completions
    `(completions-annotations ((,class (:foreground ,miasma-reseda))))
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
