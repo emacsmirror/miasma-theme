@@ -127,12 +127,13 @@
    `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
 
    ;;;;; org
+   `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
+   `(org-document-title ((,class (:foreground ,miasma-copper))))
    `(org-done ((,class (:foreground ,miasma-olive :weight bold))))
+   `(org-footnote ((,class (:foreground ,miasma-sky :underline t))))
    `(org-headline-done ((,class (:foreground ,miasma-dark-gray :weight bold))))
    `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
-   `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
-   `(org-document-title ((,class (:foreground ,miasma-copper))))
 
 
    ;;;;; line numbers
