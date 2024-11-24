@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.1.0
+;; Version: 1.2.0
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -165,6 +165,9 @@
    `(avy-lead-face-1 ((,class :foreground ,miasma-light-gray :background ,miasma-dark-gray :weight bold)))
    `(avy-lead-face-2 ((,class :background ,miasma-lemon :weight bold)))
    `(avy-lead-face ((,class :foreground ,miasma-light-gray :background ,miasma-terracota :weight bold)))
+
+   ;;;;; beacon
+   `(beacon-fallback-background ((,class :background ,miasma-ivy)))
 
    ;;;;; company
    `(company-echo-common ((,class (:inherit company-tooltip-common))))
