@@ -32,7 +32,6 @@
       ;; Palette
       (miasma-light-charcoal "#222222")
       (miasma-charcoal "#1c1c1c")
-      (miasma-onyx "#101010")
       (miasma-obsidian "#151515")
       (miasma-graphite "#444444")
       (miasma-dark-gray "#666666")
@@ -43,6 +42,7 @@
       (miasma-forest "#242d1d")
       (miasma-moss "#2f361f")
       (miasma-olive "#43492a")
+      (miasma-ivy "#335533")
       (miasma-eucalyptus "#5f875f")
       (miasma-reseda "#78834b")
       (miasma-walnut "#685742")
@@ -50,7 +50,8 @@
       (miasma-copper "#bb7744")
       (miasma-cedar "#b36d43")
       (miasma-terracota "#c86448")
-      (miasma-fire "#661010")
+      (miasma-chestnut "#553333")
+      (miasma-fire "#824040")
       (miasma-lemon "#fbec9f")
       (miasma-ecru "#d7c483")
       (miasma-brass "#c9a554"))
@@ -82,6 +83,13 @@
    ;;;;; completions
    `(completions-annotations ((,class (:foreground ,miasma-reseda))))
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
+
+
+   ;;;;; diff
+   `(diff-added ((,class (:extend t :background ,miasma-ivy :foreground ,miasma-marble))))
+   `(diff-removed ((,class (:extend t :background ,miasma-chestnut :foreground ,miasma-marble))))
+   `(diff-refine-added ((,class (:background ,miasma-eucalyptus))))
+   `(diff-refine-removed ((,class (:background ,miasma-fire))))
 
    ;;;;; dired
    `(dired-directory ((,class (:foreground ,miasma-eucalyptus))))
@@ -239,6 +247,7 @@
    `(magit-cherry-equivalent ((,class (:foreground ,miasma-terracota))))
    `(magit-cherry-equivalent ((,class (:foreground ,miasma-terracota))))
    `(magit-cherry-unmatched ((,class (:foreground ,miasma-sky))))
+   `(magit-diff-added-highlight ((,class (:inherit diff-added))))
    `(magit-diff-base ((,class (:foreground ,miasma-lemon :background ,miasma-walnut :extend t))))
    `(magit-diff-base-highlight ((,class (:foreground ,miasma-lemon :background ,miasma-olive))))
    `(magit-diff-context ((,class (:foreground ,miasma-dark-gray :extend t))))
@@ -248,6 +257,7 @@
    `(magit-diff-hunk-heading-highlight ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite :extend t))))
    `(magit-diff-hunk-heading-selection ((,class (:foreground ,miasma-cedar :extend t :inherit magit-diff-heading-highlight))))
    `(magit-diff-lines-heading ((,class (:foreground ,miasma-light-gray :background ,miasma-copper))))
+   `(magit-diff-removed-highlight ((,class (:inherit diff-removed))))
    `(magit-diffstat-added ((,class (:foreground ,miasma-olive))))
    `(magit-diffstat-removed ((,class (:foreground ,miasma-fire))))
    `(magit-dimmed ((,class (:foreground ,miasma-graphite))))
