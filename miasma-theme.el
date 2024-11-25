@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.2.0
+;; Version: 1.3.0
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -341,6 +341,7 @@
    `(transient-key-stay ((,class :foreground ,miasma-ecru)))
 
    ;;;;; vertico
+   `(vertico-current ((,class (:background ,miasma-olive :extend t))))
    `(vertico-posframe-border ((,class (:background ,miasma-walnut))))
    `(vertico-posframe-border-2 ((,class (:background ,miasma-tangerine))))
    `(vertico-posframe-border-3 ((,class (:background ,miasma-cedar))))
