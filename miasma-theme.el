@@ -135,6 +135,7 @@
    `(mode-line-inactive ((,class (:foreground ,miasma-light-gray :background ,miasma-graphite))))
 
    ;;;;; org
+   `(org-block ((,class (:background ,miasma-charcoal, :extend t))))
    `(org-date ((,class (:foreground ,miasma-sky :underline (:style line)))))
    `(org-document-title ((,class (:foreground ,miasma-copper))))
    `(org-done ((,class (:foreground ,miasma-olive :weight bold))))
