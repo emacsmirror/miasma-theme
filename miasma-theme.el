@@ -112,11 +112,18 @@
    `(font-lock-warning-face ((,class (:foreground ,miasma-tangerine))))
    `(font-lock-builtin-face ((,class (:foreground ,miasma-light-gray))))
 
+   ;;;;; info
+   `(info-menu-star ((,class (:foreground ,miasma-terracota))))
+
    ;;;;; isearch
    `(isearch ((,class (:foreground ,miasma-light-charcoal :background ,miasma-tangerine))))
    `(isearch-group-1 ((,class (:foreground ,miasma-light-charcoal :background ,miasma-ecru))))
    `(isearch-group-2 ((,class (:foreground ,miasma-light-charcoal :background ,miasma-brass))))
    `(isearch-fail ((,class (:background ,miasma-fire))))
+
+   ;;;;; line numbers
+   `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
+   `(line-number-current-line ((,class (:background ,miasma-charcoal :inherit default))))
 
    ;;;;; message
    `(message-cited-text ((,class (:foreground ,miasma-dark-gray))))
@@ -143,11 +150,6 @@
    `(org-headline-done ((,class (:foreground ,miasma-dark-gray :weight bold))))
    `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
-
-
-   ;;;;; line numbers
-   `(line-number ((,class (:inherit default :foreground ,miasma-dark-gray))))
-   `(line-number-current-line ((,class (:background ,miasma-charcoal :inherit default))))
 
    ;;;;; window-divider-mode
    `(window-divider ((,class (:foreground ,miasma-olive))))
