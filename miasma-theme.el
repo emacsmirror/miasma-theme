@@ -151,6 +151,19 @@
    `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
 
+   ;;;;; whitespace-mode
+   `(whitespace-space ((,class (:background ,(if (bound-and-true-p solaire-mode) miasma-charcoal miasma-light-charcoal) :foreground ,miasma-dark-gray))))
+   `(whitespace-tab ((,class (:background ,(if (bound-and-true-p solaire-mode) miasma-charcoal miasma-light-charcoal) :foreground ,miasma-dark-gray))))
+   `(whitespace-line ((,class (:background ,miasma-forest))))
+   `(whitespace-trailing ((,class (:background ,miasma-chestnut))))
+   `(whitespace-empty ((,class (:background ,miasma-fire))))
+   `(whitespace-newline ((,class (:foreground ,miasma-dark-gray))))
+   `(whitespace-big-indent ((,class (:foreground ,miasma-terracota :background ,miasma-fire))))
+   `(whitespace-indentation ((,class (:foreground ,miasma-chestnut :background ,miasma-lemon))))
+   `(whitespace-space-after-tab ((,class (:foreground ,miasma-chestnut :background ,miasma-lemon))))
+   `(whitespace-space-before-tab ((,class (:foreground ,miasma-chestnut :background ,miasma-tangerine))))
+   `(whitespace-missing-newline-at-eof ((,class (:foreground ,miasma-charcoal :background ,miasma-lemon))))
+
    ;;;;; window-divider-mode
    `(window-divider ((,class (:foreground ,miasma-olive))))
    `(window-divider-first-pixel ((,class (:foreground ,miasma-olive))))
