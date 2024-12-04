@@ -367,7 +367,14 @@
    `(web-mode-html-attr-engine-face ((,class (:foreground ,miasma-reseda))))
    `(web-mode-html-attr-name-face ((,class (:foreground ,miasma-reseda))))
    `(web-mode-html-tag-bracket-face ((,class (:foreground ,miasma-eucalyptus))))
-   `(web-mode-html-tag-face ((,class (:foreground ,miasma-eucalyptus))))))
+   `(web-mode-html-tag-face ((,class (:foreground ,miasma-eucalyptus))))
+
+   ;;;;; wgrep
+   `(wgrep-face ((,class (:background ,miasma-brass :foreground ,miasma-light-charcoal))))
+   `(wgrep-done-face ((,class (:foreground ,miasma-brass))))
+   `(wgrep-delete-face ((,class (:background ,miasma-terracota))))
+   `(wgrep-file-face ((,class (:background ,miasma-graphite))))
+   `(wgrep-reject-face ((,class (:foreground ,miasma-terracota))))))
 
 ;;; Footer
 
