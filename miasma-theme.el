@@ -55,7 +55,7 @@
       (miasma-lemon "#fbec9f")
       (miasma-ecru "#d7c483")
       (miasma-brass "#c9a554"))
-
+ 
   (custom-theme-set-faces
    'miasma
    ;;;; Built-in packages
@@ -83,7 +83,6 @@
    ;;;;; completions
    `(completions-annotations ((,class (:foreground ,miasma-reseda))))
    `(completions-common-part ((,class (:foreground ,miasma-eucalyptus))))
-
 
    ;;;;; diff
    `(diff-added ((,class (:extend t :background ,miasma-ivy :foreground ,miasma-marble))))
@@ -151,6 +150,9 @@
    `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
 
+   ;;;;; tab-line
+   `(tab-line ((,class (:background ,miasma-charcoal :foreground ,miasma-light-gray))))
+
    ;;;;; whitespace-mode
    `(whitespace-space ((,class (:background ,(if (bound-and-true-p solaire-mode) miasma-charcoal miasma-light-charcoal) :foreground ,miasma-dark-gray))))
    `(whitespace-tab ((,class (:background ,(if (bound-and-true-p solaire-mode) miasma-charcoal miasma-light-charcoal) :foreground ,miasma-dark-gray))))
@@ -185,6 +187,19 @@
    ;;;;; beacon
    `(beacon-fallback-background ((,class :background ,miasma-ivy)))
 
+   ;;;;; centaur-tabs
+   `(centaur-tabs-default ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
+   `(centaur-tabs-selected ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
+   `(centaur-tabs-unselected ((,class (:foreground ,miasma-dark-gray :background ,miasma-charcoal))))
+   `(centaur-tabs-selected-modified ((,class (:foreground ,miasma-lemon :background ,miasma-light-charcoal))))
+   `(centaur-tabs-unselected-modified ((,class (:foreground ,miasma-brass :background ,miasma-charcoal))))
+   `(centaur-tabs-close-selected ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
+   `(centaur-tabs-close-unselected ((,class (:foreground ,miasma-dark-gray :background ,miasma-charcoal))))
+   `(centaur-tabs-close-mouse-face ((,class (:background ,miasma-ivy))))
+   `(centaur-tabs-active-bar-face ((,class (:background ,miasma-ivy))))
+   `(centaur-tabs-modified-marker-selected ((,class (:foreground ,miasma-lemon :background ,miasma-light-charcoal))))
+   `(centaur-tabs-modified-marker-unselected ((,class (:foreground ,miasma-brass :background ,miasma-charcoal))))
+   
    ;;;;; company
    `(company-echo-common ((,class (:inherit company-tooltip-common))))
    `(company-tooltip-annotation ((,class (:foreground ,miasma-copper))))
