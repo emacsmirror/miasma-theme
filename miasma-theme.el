@@ -151,6 +151,14 @@
    `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
 
+   ;;;;; smerge-mode
+   `(smerge-base ((,class (:background ,miasma-reseda :extend t))))
+   `(smerge-lower ((,class (:background ,miasma-ivy :extend t))))
+   `(smerge-markers ((,class (:background ,miasma-dark-gray :extend t))))
+   `(smerge-refined-added ((,class (:background ,miasma-eucalyptus))))
+   `(smerge-refined-removed ((,class (:background ,miasma-fire))))
+   `(smerge-upper ((,class (:background ,miasma-chestnut :extend t))))
+
    ;;;;; tab-line
    `(tab-line ((,class (:background ,miasma-charcoal :foreground ,miasma-light-gray))))
 
