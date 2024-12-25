@@ -23,3 +23,4 @@ Download =miasma-theme.el= file to the =~/.emacs.d/themes/= directory. Add these
 *** Screenshots
 [[https://raw.githubusercontent.com/daut/miasma-theme.el/main/screenshots/intro.png]]
 [[https://raw.githubusercontent.com/daut/miasma-theme.el/main/screenshots/preview.png]]
+[[https://raw.githubusercontent.com/daut/miasma-theme.el/main/screenshots/org.png]]
