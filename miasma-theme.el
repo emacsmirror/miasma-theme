@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.5.0
+;; Version: 1.5.1
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -379,6 +379,7 @@
    `(transient-inactive-value ((,class :foreground ,miasma-graphite)))
    `(transient-key-exit ((,class :foreground ,miasma-cedar)))
    `(transient-key-stay ((,class :foreground ,miasma-ecru)))
+   `(transient-key-stack ((,class :foreground ,miasma-tangerine)))
 
    ;;;;; vertico
    `(vertico-current ((,class (:background ,miasma-olive :extend t))))
