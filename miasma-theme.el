@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.5.1
+;; Version: 1.6.0
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -75,6 +75,16 @@
    `(trailing-whitespace ((,class (:background ,miasma-fire))))
    `(vertical-border ((,class (:foreground ,miasma-olive))))
    `(warning ((,class (:foreground ,miasma-tangerine))))
+
+   ;;;;; ansi-colors
+   `(ansi-color-black ((,class (:foreground ,miasma-charcoal))))
+   `(ansi-color-blue ((,class (:foreground ,miasma-river))))
+   `(ansi-color-cyan ((,class (:foreground ,miasma-sky))))
+   `(ansi-color-green ((,class (:foreground ,miasma-eucalyptus))))
+   `(ansi-color-magenta ((,class (:foreground ,miasma-cedar))))
+   `(ansi-color-red ((,class (:foreground ,miasma-terracota))))
+   `(ansi-color-white ((,class (:foreground ,miasma-marble))))
+   `(ansi-color-yellow ((,class (:foreground ,miasma-lemon))))
 
    ;;;;; compilation
    `(compilation-mode-line-exit ((,class (:foreground ,miasma-eucalyptus))))
