@@ -387,7 +387,7 @@
    `(solaire-hl-line-face ((,class (:background ,miasma-obsidian))))
 
    ;;;;; show-paren
-   `(show-paren-match ((,class (:background ,miasma-moss :weight bold))))
+   `(show-paren-match ((,class (:background ,miasma-forest :weight bold))))
 
    ;;;;; transient
    `(transient-inactive-value ((,class :foreground ,miasma-graphite)))
