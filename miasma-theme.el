@@ -161,6 +161,9 @@
    `(org-headline-todo ((,class (:foreground ,miasma-eucalyptus :weight bold))))
    `(org-todo ((,class (:foreground ,miasma-brass :weight bold))))
 
+   ;;;;; pulse
+   `(pulse-highlight-start-face ((,class (:background ,miasma-brass))))
+
    ;;;;; smerge-mode
    `(smerge-base ((,class (:background ,miasma-reseda :extend t))))
    `(smerge-lower ((,class (:background ,miasma-ivy :extend t))))
