@@ -288,9 +288,9 @@
    `(hl-line ((,class (:background ,miasma-charcoal))))
 
    ;;;;; lsp
-   `(lsp-modeline-code-actions-face ((,class (:foreground ,miasma-olive))))
    `(lsp-face-highlight-read ((,class (:underline t :background ,miasma-moss))))
    `(lsp-face-highlight-textual ((,class (:background ,miasma-forest))))
+   `(lsp-modeline-code-actions-face ((,class (:foreground ,miasma-olive))))
 
    ;;;;; magit
    `(magit-bisect-bad ((,class (:foreground ,miasma-fire))))
