@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.6.1
+;; Version: 1.6.2
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -176,6 +176,27 @@
    ;;;;; tab-line
    `(tab-line ((,class (:background ,miasma-charcoal :foreground ,miasma-light-gray))))
 
+   ;;;;; vc-annotate
+   `(vc-annotate-color-map
+     '((20. . ,miasma-chestnut)
+       (40. . ,miasma-fire)
+       (60. . ,miasma-copper)
+       (80. . ,miasma-brass)
+       (100. . ,miasma-ecru)
+       (120. . ,miasma-lemon)
+       (140. . ,miasma-moss)
+       (160. . ,miasma-olive)
+       (180. . ,miasma-ivy)
+       (200. . ,miasma-eucalyptus)
+       (220. . ,miasma-reseda)
+       (240. . ,miasma-terracota)
+       (260. . ,miasma-tangerine)
+       (280. . ,miasma-sky)
+       (300. . ,miasma-marble)
+       (320. . ,miasma-light-gray)
+       (340. . ,miasma-dark-gray)
+       (360. . ,miasma-charcoal)))
+
    ;;;;; whitespace-mode
    `(whitespace-space ((,class (:background ,(if (bound-and-true-p solaire-mode) miasma-charcoal miasma-light-charcoal) :foreground ,miasma-dark-gray))))
    `(whitespace-tab ((,class (:background ,(if (bound-and-true-p solaire-mode) miasma-charcoal miasma-light-charcoal) :foreground ,miasma-dark-gray))))
@@ -292,6 +313,7 @@
    `(lsp-face-highlight-read ((,class (:underline t :background ,miasma-moss))))
    `(lsp-face-highlight-textual ((,class (:background ,miasma-forest))))
    `(lsp-modeline-code-actions-face ((,class (:foreground ,miasma-olive))))
+   `(lsp-flycheck-info-unnecessary-face ((,class (:underline (:style wave :color ,miasma-eucalyptus)))))
 
    ;;;;; magit
    `(magit-bisect-bad ((,class (:foreground ,miasma-fire))))
