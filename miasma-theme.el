@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.6.2
+;; Version: 1.6.3
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -314,6 +314,7 @@
    `(lsp-face-highlight-textual ((,class (:background ,miasma-forest))))
    `(lsp-modeline-code-actions-face ((,class (:foreground ,miasma-olive))))
    `(lsp-flycheck-info-unnecessary-face ((,class (:underline (:style wave :color ,miasma-eucalyptus)))))
+   `(lsp-flycheck-error-unnecessary-face ((,class (:underline (:style wave :color ,miasma-terracota)))))
 
    ;;;;; magit
    `(magit-bisect-bad ((,class (:foreground ,miasma-fire))))
