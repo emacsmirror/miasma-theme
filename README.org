@@ -24,3 +24,22 @@ Download =miasma-theme.el= file to the =~/.emacs.d/themes/= directory. Add these
 [[https://raw.githubusercontent.com/daut/miasma-theme.el/main/screenshots/intro.png]]
 [[https://raw.githubusercontent.com/daut/miasma-theme.el/main/screenshots/preview.png]]
 [[https://raw.githubusercontent.com/daut/miasma-theme.el/main/screenshots/org.png]]
+
+** Configuration
+
+*** LSP Mode
+
+By default, Miasma preserves syntax highlighting colors for "unnecessary" code (such as unused imports or variables) detected by LSP mode. Instead of overriding the meaningful colors that indicate variables, functions, and other language elements, only a wavy underline is displayed.
+
+This behavior can be customized by setting ~lsp-diagnostics-attributes~ in your configuration *after* loading the theme:
+
+#+begin_src emacs-lisp
+(load-theme 'miasma t)
+
+;; Example: Apply gray foreground to unnecessary code
+(setq lsp-diagnostics-attributes
+      '((unnecessary :foreground "gray")
+        (deprecated :strike-through t)))
+#+end_src
+
+If you have customized ~lsp-diagnostics-attributes~ via ~M-x customize-variable~, your preference will be automatically respected.

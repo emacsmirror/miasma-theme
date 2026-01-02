@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.6.3
+;; Version: 1.6.4
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -463,6 +463,21 @@
 (when (and (boundp 'custom-theme-load-path) load-file-name)
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
+
+;;; LSP Mode Configuration
+
+;; Configure lsp-mode to preserve syntax highlighting for "unnecessary" code.
+;; By default, lsp-mode applies gray foreground which overrides meaningful
+;; colors (variables, functions, etc.). This setting uses only wavy underlines.
+;; See README for customization options.
+
+;;;###autoload
+(with-eval-after-load 'lsp-diagnostics
+  ;; Only set if user hasn't customized it themselves
+  (unless (get 'lsp-diagnostics-attributes 'saved-value)
+    (setq lsp-diagnostics-attributes
+          '((unnecessary)  ; No :foreground - preserves syntax highlighting
+            (deprecated :strike-through t)))))
 
 (provide-theme 'miasma)
 
