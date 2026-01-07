@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.6.4
+;; Version: 1.6.5
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -428,12 +428,12 @@
 
    ;;;;; vterm
    `(vterm-color-black ((,class (:foreground ,miasma-charcoal :background ,miasma-graphite))))
-   `(vterm-color-red ((,class (:foreground ,miasma-terracota :background ,miasma-chestnut))))
+   `(vterm-color-red ((,class (:foreground ,miasma-walnut :background ,miasma-terracota))))
    `(vterm-color-green ((,class (:foreground ,miasma-eucalyptus :background ,miasma-moss))))
-   `(vterm-color-yellow ((,class (:foreground ,miasma-ecru :background ,miasma-olive))))
-   `(vterm-color-blue ((,class (:foreground ,miasma-river :background ,miasma-obsidian))))
+   `(vterm-color-yellow ((,class (:foreground ,miasma-cedar :background ,miasma-olive))))
+   `(vterm-color-blue ((,class (:foreground ,miasma-reseda :background ,miasma-obsidian))))
    `(vterm-color-magenta ((,class (:foreground ,miasma-cedar :background ,miasma-chestnut))))
-   `(vterm-color-cyan ((,class (:foreground ,miasma-eucalyptus :background ,miasma-forest))))
+   `(vterm-color-cyan ((,class (:foreground ,miasma-ecru :background ,miasma-forest))))
    `(vterm-color-white ((,class (:foreground ,miasma-marble :background ,miasma-dark-gray))))
    `(vterm-color-bright-black ((,class (:foreground ,miasma-graphite :background ,miasma-dark-gray))))
    `(vterm-color-bright-red ((,class (:foreground ,miasma-tangerine :background ,miasma-chestnut))))
