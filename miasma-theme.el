@@ -2,7 +2,7 @@
 
 ;; Author: Bozidar Dautovic
 ;; URL: http://github.com/daut/miasma-theme.el
-;; Version: 1.6.6
+;; Version: 1.6.7
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -232,7 +232,7 @@
    `(beacon-fallback-background ((,class :background ,miasma-ivy)))
 
    ;;;;; blamer
-   `(blamer-face ((,class :foreground ,miasma-dark-gray :background 'unspecified :slant italic)))
+   `(blamer-face ((,class :foreground ,miasma-dark-gray :background unspecified :slant italic)))
 
    ;;;;; centaur-tabs
    `(centaur-tabs-default ((,class (:foreground ,miasma-light-gray :background ,miasma-light-charcoal))))
